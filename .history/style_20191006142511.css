@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0; 
+    background-color: #fff;
+}
+
+p {
+    font-family: "Lato", sans-serif; 
+    margin: 0; 
+    font-size: 16px; 
+}

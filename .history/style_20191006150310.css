@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0; 
+    background-color: #fff;
+}
+
+p {
+    font-family: arial, sans-serif; 
+    color: #05263a;
+    margin: 0; 
+    font-size: 18px; 
+}
+
+h1 {
+    font-family: "Lato", sans-serif; 
+    margin: 0;
+}
+
+/* Container - Top */
+
+.container-top {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto 2fr 1fr; 
+    grid-gap: 5px; 
+    grid-column-gap: 20px; 
+    padding-left: 20%; 
+    padding-right: 20%; 
+    padding-top: 2%;
+    grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "c c c c c c c c c c c c"
+    "c c c c c c c c c c c c"
+    "c c c c c c c c c c c c"
+    "c c c c c c c c c c c c";
+}
+
+.header {
+    grid-area: h; 
+}
